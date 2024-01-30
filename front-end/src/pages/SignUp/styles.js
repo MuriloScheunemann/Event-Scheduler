@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   height: 100vh;
-  padding-top: 13rem;
+  padding-top: 10rem;
   background-color: ${({ theme }) => theme.COLORS.WHITE};
   position: relative;
 

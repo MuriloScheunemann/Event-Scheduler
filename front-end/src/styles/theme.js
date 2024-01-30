@@ -1,14 +1,13 @@
 export default {
     COLORS: {
-      BACKGROUND: "#FAE8E2",
-      WHITE: "#F4EDE8",
+      
+      BG_ORANGE_100: "#FAE8E2",
+      BG_ORANGE_200: "#FFC3A1",
+      BG_ORANGE_300: "#EB7752",
+      BG_ORANGE_300_HOVER: "#EB7740",
+
+      WHITE: "#FFFFFF",
       BLACK: "#101010",
 
-
-
-      ORANGE: "#EB7752",
-      GRAY_100: "#999591",
-      GRAY_300: "#666360",
-      RED: "#FF002E"
     }
   }
