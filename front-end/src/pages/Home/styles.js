@@ -5,9 +5,21 @@ export const Container = styled.div`
   height: 100vh;
 
   display: grid;
-  grid-template-columns: 368px auto;
-  grid-template-rows: 65px auto;
+  grid-template-columns: 368px 1fr;
+  grid-template-rows: 65px 12rem 1fr;
   grid-template-areas: 
-  "nav nav"
-  "menu content";
+  "navbar navbar"
+  "sidebar content"
+  "sidebar content";
+`
+
+export const Content = styled.div`
+  grid-area: content;
+  padding: 3rem;
+`
+
+export const ContentCards = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
 `
