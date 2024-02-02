@@ -1,10 +1,11 @@
-import { Container, StyledCalendar } from "./styles";
+import { Container } from "./styles";
+import { Calendar } from "../Calendar";
 
 export function Sidebar(){
     return(
         <Container>
             
-            <StyledCalendar/>
+            <Calendar/>
             
             <h2>Calendars</h2>
 
